@@ -2,7 +2,7 @@ name: Flask Application
 on:
   pull_request:
     branches:
-    - master
+    - main
 jobs:
   build:
     runs-on: ubuntu-16.04
